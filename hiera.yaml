@@ -8,3 +8,8 @@ defaults:
 hierarchy:
   - name: "Common defaults"
     path: "common.yaml"
+  - name: "Secret data (encrypted)"
+    lookup_key: eyaml_lookup_key
+    path: "secret.eyaml"
+    options:
+       gpg_gnupghome: '/root/.gnupg'
