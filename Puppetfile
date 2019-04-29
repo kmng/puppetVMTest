@@ -13,6 +13,7 @@ mod 'stahnma/epel', '1.2.2'
 mod 'puppetlabs-mysql', '8.1.0'
 mod 'puppetlabs-java', '3.3.0'
 mod 'puppetlabs-tomcat', '2.5.0'
+mod 'puppetlabs-docker_platform', '2.2.1'
 
 mod 'pbg_ntp',
   :git => 'https://github.com/bitfield/pbg_ntp.git',
